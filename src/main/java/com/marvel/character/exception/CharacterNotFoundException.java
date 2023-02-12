@@ -1,4 +1,4 @@
-package com.marvel.character;
+package com.marvel.character.exception;
 
 public class CharacterNotFoundException extends RuntimeException {
 

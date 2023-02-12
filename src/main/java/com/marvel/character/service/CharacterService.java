@@ -1,5 +1,8 @@
-package com.marvel.character;
+package com.marvel.character.service;
 
+import com.marvel.character.entity.Character;
+import com.marvel.character.exception.CharacterNotFoundException;
+import com.marvel.character.repositoy.CharacterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

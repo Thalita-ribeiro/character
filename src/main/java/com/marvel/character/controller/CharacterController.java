@@ -1,5 +1,8 @@
-package com.marvel.character;
+package com.marvel.character.controller;
 
+import com.marvel.character.exception.CharacterNotFoundException;
+import com.marvel.character.service.CharacterService;
+import com.marvel.character.entity.Character;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

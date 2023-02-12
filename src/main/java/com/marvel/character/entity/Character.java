@@ -1,4 +1,4 @@
-package com.marvel.character;
+package com.marvel.character.entity;
 
 import lombok.Getter;
 import lombok.Setter;
