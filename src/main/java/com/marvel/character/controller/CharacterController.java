@@ -51,5 +51,14 @@ public class CharacterController {
         return new ResponseEntity<>(newCharacter, HttpStatus.CREATED);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Character> deleteCharacter(@PathVariable Long id) {
+        try {
+            Character deletedCharacter = characterService.deleteCharacter(id);
+            return ResponseEntity.noContent().build();
+        } catch (CharacterNotFoundException ex) {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }
 
