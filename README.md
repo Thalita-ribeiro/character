@@ -23,3 +23,4 @@ Consulta de personagens: permite que informações sobre os personagens sejam co
 Para utilizar o projeto, é necessário ter o Java e o MySQL instalados em sua máquina. Além disso, é necessário realizar a configuração do banco de dados, criando uma tabela para armazenar as informações dos personagens.
 
 Após a configuração do banco de dados, basta importar o projeto para sua IDE de desenvolvimento e executá-lo como uma aplicação Java. A partir daí, será possível realizar as operações de cadastro, edição, remoção e consulta de personagens.
+
